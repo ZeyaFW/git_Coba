@@ -11,7 +11,8 @@ driver.get("https://www.google.com/")
 
 searchbar = driver.find_element(By.CLASS_NAME, "gLFyf")
 searchbar.send_keys("Dota 2")
-
-
+search_button = driver.find_element(By.CLASS_NAME, "gNO89b")
+search_button.click()
+breakpoint()
 
 
